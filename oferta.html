@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Oferta Studio Łukasiak</title>
+        <link rel="icon" href="relicon.png" />
+        <meta name="keywords" content="Fotografia Czarnków Trzcianka Imprezy Masowe Photo Fotobudka Fotooferta Zdjęcia 18stki" />
+        <meta name="description" content="" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="oferta.css">
+        </head>
+    <body>
+        <nav class="navbar">
+            <div class="brand-title">Studio Łukasiak</div>
+            <a href="#" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+              <ul>
+                <li><a href="index.html">Strona Główna</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="index.html#o_mnie">O mnie</a></li>
+              </ul>
+            </div>
+          </nav>
+
+    <section id="oferta_sekcja">
+        <h1 id="oferta_text">Oferta Ślubna</h1>
+        
+        <div class="oferta_container">
+            <div class="text_1">
+                   <button id="button_1" class="buttons">
+                        <h1>Pakiet MINI</h1>
+                        <div id="big_text1" class="big_text"> 
+                            <span>
+                            Ceremonia w kościele/USC <br />
+                            Wesele do 4 godzin reportażu <br />
+                            Płyta DVD
+                            </span>
+                        </div>
+                    </button>
+            </div>
+            <div class="text_1">
+               <button id="button_2" class="buttons">
+                    <h1>Pakiet SILVER</h1>
+                    <div id="big_text2" class="big_text"> 
+                        <span>
+                        Przygotowania w domu Panny Młodej <br />
+                        Ceremonia w kościele/USC <br />
+                        Wesele do oczepin <br />
+                        Płyta DVD
+                        </span>
+                    </div>
+                </button>
+            </div>
+             <div class="text_1">
+               <button id="button_3" class="buttons">
+                    <h1>Pakiet GOLD</h1>
+                     <div id="big_text3" class="big_text"> 
+                        <span>
+                        Przygotowania w domu Panny Młodej
+                        Ceremonia w kościele/USC <br />
+                        Wesele do oczepin<br />
+                        Sesja narzeczeńska i ślubna<br />
+                        Płyta DVD<br />
+                        </span>
+                    </div>
+                </button>
+            </div>
+            <div class="text_1">
+               <button id="button_4" class="buttons">
+                    <h1>Pakiet ROZSZERZONY</h1>
+                    <div id="big_text4" class="big_text"> 
+                        <span>
+                        Duet fotografów <br />
+                        Przygotowania w domu Panny Młodej <br />
+                        Ceremonia w kościele/USC <br />
+                        Wesele do oczepin <br />
+                        Klip video (do 30minut) <br />
+                        Sesja narzeczeńska i ślubna <br />
+                        Płyta DVD
+                        </span>
+                    </div>
+                </button>
+            </div>
+            <div class="text_1">
+               <button id="button_5" class="buttons">
+                    <h1>Pakiet FOTO & VIDEO</h1>
+                     <div id="big_text5" class="big_text"> 
+                        <span>
+                        Duet fotografów <br />
+                        Przygotowania w domu Panny Młodej <br />
+                        Ceremonia w kościele/USC <br />
+                        Wesele do oczepin <br />
+                        Klip video (do 30minut) <br />
+                        Sesja narzeczeńska i ślubna <br />
+                        Płyta DVD
+                        </span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer>
+            <ul class="left_list">
+                <li class="footer_menu"><a href="#o_mnie">O mnie</a></li>
+                <li class="footer_menu"><a href="portfolio.html">Portfolio</a></li>
+                <li class="footer_menu"><a href="index.html">Strona Główna</a></li>
+                <li class="footer_menu"><a href="https://www.instagram.com/on.develop" target="_blank">Twórca strony</a></li>
+            </ul>
+            <div id="logo_footer_div">
+               <a href="index.html" id="logo_footer">
+                <img src="logo.png">
+               </a>
+            </div>
+            <div id="social_media_footer_container">
+               <a href="https://www.facebook.com/StudioLukasiak" target="_blank">
+                    <img class="social_media_footer" src="img/ikony/facebookwhite.png">
+               </a>
+               <a href="https://www.instagram.com/studiolukasiak/" target="_blank">
+                    <img class="social_media_footer" src="img/ikony/instagramwhite.png">
+               </a>
+            </div>
+    </footer>
+    <script type="text/javascript">
+            const button1 = document.getElementById('button_1')
+            const pakietMini = document.getElementById('big_text1')
+
+            const button2 = document.getElementById('button_2')
+            const pakietSilver = document.getElementById('big_text2')
+
+            const button3 = document.getElementById('button_3')
+            const pakietGold = document.getElementById('big_text3')
+
+            const button4 = document.getElementById('button_4')
+            const pakietRozszerzony = document.getElementById('big_text4')
+
+            const button5 = document.getElementById('button_5')
+            const pakietFotoVideo = document.getElementById('big_text5')
+
+            button1.addEventListener('click', () => {
+                pakietMini.classList.toggle('active')
+            })
+
+            button2.addEventListener('click', () => {
+                pakietSilver.classList.toggle('active')
+            })
+
+            button3.addEventListener('click', () => {
+                pakietGold.classList.toggle('active')
+            })
+
+            button4.addEventListener('click', () => {
+                pakietRozszerzony.classList.toggle('active')
+            })
+
+            button5.addEventListener('click', () => {
+                pakietFotoVideo.classList.toggle('active')
+            })
+    </script>
+    <script src="script.js"></script>
+    </body>
+</html>

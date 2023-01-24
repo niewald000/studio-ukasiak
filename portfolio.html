@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Studio Łukasiak</title>
+        <link rel="icon" href="relicon.png" />
+        <meta name="keywords" content="Fotografia Czarnków Trzcianka Imprezy Masowe Photo Fotobudka Fotooferta Zdjęcia 18stki" />
+        <meta name="description" content="" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="portfolio.css">
+    </head>
+    <body>
+      <header>
+           <nav class="navbar">
+                <div class="brand-title">Studio Łukasiak</div>
+                <a href="#" class="toggle-button">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                  <ul>
+                    <li><a href="index.html">Strona Główna</a></li>
+                    <li><a href="portfolio.html">Oferta</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="index.html#o_mnie">O mnie</a></li>
+                  </ul>
+                </div>
+              </nav>
+          </header>
+    <section id="gallery">
+       <h1>Portfolio zdjęć</h1>
+        <div class="gallery_1">
+            <div class="table">
+                <div class="thumbnail">
+                    <img tabindex="0" src="img/PANORAMA/1.jpg" alt="" />
+                </div>
+                <div class="thumbnail">
+                    <img tabindex="0" src="img/PANORAMA/2.jpg" alt="" />
+                </div>
+                <div class="thumbnail">
+                    <img tabindex="0" src="img/PANORAMA/3.jpg" alt="" />
+                </div>
+                <div class="thumbnail">
+                    <img tabindex="0" src="img/PANORAMA/4.jpg" alt="" />
+                </div>
+            </div>
+            <div class="thumbnail" id="big_photo_container">
+                <img tabindex="0" src="img/PANORAMA/12.jpg" alt="" class="big_photo" />
+            </div>
+        </div>
+        <div id="big_second">
+             <div class="gallery_2">
+                  <div class="table_2">
+                        <div class="thumbnail">
+                            <img tabindex="0" src="img/PANORAMA/5.jpg" alt="" />
+                        </div>
+                        <div class="thumbnail">
+                            <img tabindex="0" src="img/PANORAMA/6.jpg" alt="" />
+                        </div>
+                        <div class="thumbnail">
+                            <img tabindex="0" src="img/PANORAMA/14.jpg" alt="" />
+                        </div>
+                        <div class="thumbnail">
+                            <img tabindex="0" src="img/PANORAMA/8.jpg" alt="" />
+                        </div>
+                        <div class="thumbnail">
+                            <img tabindex="0" src="img/PANORAMA/10.jpg" alt="" />
+                        </div>
+                        <div class="thumbnail">
+                            <img tabindex="0" src="img/PANORAMA/16.jpg" alt="" />
+                        </div>
+                        <div class="thumbnail">
+                            <img tabindex="0" src="img/PANORAMA/15.jpg" alt="" />
+                        </div>
+                        <div class="thumbnail">
+                            <img tabindex="0" src="img/PANORAMA/13.jpg" alt="" />
+                        </div>
+                 </div>
+            </div>
+        </div>
+        <div class="popup hidden">
+            <button aria-label="Zamknij popup" class="popup__close">X</button>
+            <img src="" alt="" class="popup__img" />
+            <button
+                aria-label="Poprzednie zdjęcie"
+                class="popup__arrow popup__arrow--left"
+            >
+               <div class="arrow">
+                &#8592
+                </div>
+            </button>
+            <button
+                aria-label="Następne zdjęcie"
+                class="popup__arrow popup__arrow--right"
+            >
+               <div class="arrow">
+                &#8594
+                </div>
+            </button>
+        </div>
+    </section>
+       <footer>
+            <ul class="left_list">
+                <li class="footer_menu"><a href="#o_mnie">O mnie</a></li>
+                <li class="footer_menu"><a href="portfolio.html">Portfolio</a></li>
+                <li class="footer_menu"><a href="kontakt.html">Kontakt</a></li>
+                <li class="footer_menu"><a href="index.html">Strona Główna</a></li>
+                <li class="footer_menu"><a href="https://www.instagram.com/on.develop" target="_blank">Twórca strony</a></li>
+            </ul>
+            <div id="logo_footer_div">
+               <a href="index.html" id="logo_footer">
+                <img src="logo.png">
+               </a>
+            </div>
+            <div id="social_media_footer_container">
+               <a href="https://www.facebook.com/StudioLukasiak" target="_blank">
+                    <img class="social_media_footer" src="img/ikony/facebookwhite.png">
+               </a>
+               <a href="https://www.instagram.com/studiolukasiak/" target="_blank">
+                    <img class="social_media_footer" src="img/ikony/instagramwhite.png">
+               </a>
+            </div>
+    </footer>
+        <script src="gallery.js"></script>
+    </body>
+</html>
